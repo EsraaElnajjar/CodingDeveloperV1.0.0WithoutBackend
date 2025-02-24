@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Swal from "sweetalert2";
+import Image from "next/image";
 
 const EnrollCourse = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -32,7 +33,7 @@ const EnrollCourse = () => {
       return;
     }
 
-    
+
 
     Swal.fire({
       title: "تم التسجيل بنجاح!",
@@ -158,14 +159,13 @@ const EnrollCourse = () => {
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-4 py-3 text-base text-body-color outline-none focus:border-primary dark:bg-[#2C303B] dark:text-white"
                       />
                       {selectedImage && (
-                        <div className="mt-3">
-                          <p className="text-sm text-gray-500 dark:text-gray-300">معاينة الصورة:</p>
-                          <img
-                            src={selectedImage}
-                            alt="Preview"
-                            className="mt-2 h-24 w-24 rounded-md border border-gray-300 dark:border-gray-600"
-                          />
+                        <div className="w-full px-4 md:w-1/2">
+                          <div className="mb-6">
+                           
+                            
+                          </div>
                         </div>
+
                       )}
                     </div>
                   </div>

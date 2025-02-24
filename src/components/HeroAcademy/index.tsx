@@ -1,15 +1,17 @@
 import Link from "next/link";
-
+import Image from "next/image";
 const HeroAcademy = () => {
   return (
     <>
 
       <div className="container">
         <div className="flex flex-col items-center min-h-screen mx-auto max-w-[800px] text-center">
-          <img
+          <Image
+            width={200}
+            height={200}
             style={{ marginTop: "100px", marginBottom: "10px" }}
-            className="w-[200px] h-[200px] rounded-full"
-            src="images/logo/1-removebg-preview.png"
+            className="rounded-full"
+            src="/images/logo/1-removebg-preview.png"
             alt="Academy Logo"
           />
           <h1 style={{ marginBottom: "50px" }} className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
