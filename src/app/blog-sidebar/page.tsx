@@ -147,7 +147,7 @@ const BlogSidebarPage = () => {
                       ASP.NET Core Framwork
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      HTML , CSS , JavaScript "js"
+                      HTML , CSS , JavaScript 
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                       Angular or React
