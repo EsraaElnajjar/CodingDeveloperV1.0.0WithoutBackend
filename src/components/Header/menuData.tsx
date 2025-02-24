@@ -14,8 +14,8 @@ const menuData: Menu[] = [
       },
       {
         id: 41,
-        title: "عن الأكاديمية",
-        path: "/about",
+        title: "موقع الأكاديمية",
+        path: "/location",
         newTab: false,
       },
       {
@@ -27,31 +27,31 @@ const menuData: Menu[] = [
       {
         id: 43,
         title: "حجز الدبلومات",
-        path: "/blog",
+        path: "/enrollCourse",
         newTab: false,
       },
       {
         id: 44,
         title: "أراء الطلاب",
-        path: "/blog-sidebar",
+        path: "/aboutAcademy",
         newTab: false,
       },
       {
         id: 45,
         title: "محاضرى الأكاديمية",
-        path: "/blog-details",
+        path: "/enrollCourse",
         newTab: false,
       },
       {
         id: 46,
         title: "الشهادات فى الأكاديمية",
-        path: "/signin",
+        path: "/enrollCourse",
         newTab: false,
       },
       {
         id: 47,
         title: "معرض الطلبة",
-        path: "/signup",
+        path: "/gallery",
         newTab: false,
       },
       // {

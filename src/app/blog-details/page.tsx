@@ -18,29 +18,28 @@ const BlogDetailsPage = () => {
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                <h2 style={{direction:"rtl"}} className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                كورس FullStack 
                 </h2>
-                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
+                <div style={{direction:"rtl"}} className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
                     <div className="mb-5 mr-10 flex items-center">
                       <div className="mr-4">
-                        <div className="relative h-10 w-10 overflow-hidden rounded-full">
+                        {/* <div className="relative h-10 w-10 overflow-hidden rounded-full">
                           <Image
                             src="/images/blog/author-02.png"
                             alt="author"
                             fill
                           />
-                        </div>
+                        </div> */}
                       </div>
-                      <div className="w-full">
+                      {/* <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
                           By <span>Musharof Chy</span>
                         </span>
-                      </div>
+                      </div> */}
                     </div>
-                    <div className="mb-5 flex items-center">
+                    {/* <div className="mb-5 flex items-center">
                       <p className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
                           <svg
@@ -92,26 +91,25 @@ const BlogDetailsPage = () => {
                         35
                       </p>
                     </div>
+                  </div> */}
                   </div>
                   <div className="mb-5">
                     <a
                       href="#0"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
-                      Design
+                      احجز الكورس الان
                     </a>
                   </div>
                 </div>
                 <div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                  <p style={{direction:"rtl"}} className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    كورس كامل يحتوى على مجموعة من الفريموورك المفيدة لتصميم وتطوير الواجهات الأمامية والخلفية
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/logo/FullStack Development.png"
                         alt="image"
                         fill
                         className="object-cover object-center"
@@ -317,12 +315,12 @@ const BlogDetailsPage = () => {
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
                       <h4 className="mb-3 text-sm font-medium text-body-color">
-                        Popular Tags :
+                        عناصر البحث
                       </h4>
                       <div className="flex items-center">
-                        <TagButton text="Design" />
+                        <TagButton text="FullStack" />
                         <TagButton text="Development" />
-                        <TagButton text="Info" />
+                        <TagButton text="Mobile Development" />
                       </div>
                     </div>
                     <div className="mb-5">
