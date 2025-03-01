@@ -14,7 +14,7 @@ const menuData: Menu[] = [
       },
       {
         id: 41,
-        title: "موقع الأكاديمية",
+        title: "مكان الأكاديمية",
         path: "/location",
         newTab: false,
       },
@@ -38,14 +38,20 @@ const menuData: Menu[] = [
       },
       {
         id: 45,
-        title: "محاضرى الأكاديمية",
-        path: "/enrollCourse",
+        title: "انشاء حساب",
+        path: "/signup",
+        newTab: false,
+      },
+      {
+        id: 48,
+        title: "تسجيل الدخول",
+        path: "/signin",
         newTab: false,
       },
       {
         id: 46,
         title: "الشهادات فى الأكاديمية",
-        path: "/enrollCourse",
+        path: "/certificate",
         newTab: false,
       },
       {
